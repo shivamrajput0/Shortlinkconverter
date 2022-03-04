@@ -1,0 +1,59 @@
+{
+    "name": "mdisk dood droplink bot",
+    "description": "Upload on Mdisk/Doodstream...",
+    "keywords": [
+        "telegram",
+        "Doodstream",
+        "shortner",
+        "mdisk",
+        "droplink"
+    ],
+    "website": "https://github.com/shivamrajput0/Shortlinkconverter",
+    "repository": "https://github.com/shivamrajput0/Shortlinkconverter",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token (must add)",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "7626510"
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "ca991bfa07a6ac45e6d5f374c84ab05c"
+        },
+        "API_KEY": {
+            "description": "https://droplink.co/member/tools/api",
+            "value": "8e41249f9706af6c5bf2a1acb1c0b5af3c6ddf84"
+        },
+        "MDISK_API": {
+            "description": "Get this from https://t.me/VideoToolMoneyTreebot (must change)",
+            "value": "LaPZD1jIR55KygNxkP8e"
+        },
+        "DOODSTREAM_API_KEY": {
+            "description": "Get this from https://doodstream.com/api-docs (must change)",
+            "value": "66186ezt1oza1ar9unrsk"
+        },
+        "CHANNEL": {
+            "description": "Enter your telegram channel Username (must change and without @)",
+            "value": "katmovieshd1"
+        },
+        "HOWTO": {
+            "description": "Your 'How to Download from Droplink' video link",
+            "value": "https://youtu.be/t-V8EYXM9JU"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

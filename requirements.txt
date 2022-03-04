@@ -1,0 +1,10 @@
+pyrogram
+tgcrypto
+aiohttp==3.7.4
+requests
+bs4
+tgcrypto
+pyshorteners
+aiohttp
+#doodstream
+unshortenit
